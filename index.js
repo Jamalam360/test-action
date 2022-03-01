@@ -4,8 +4,7 @@ const { spawn } = require("child_process");
 
 try {
   console.log(`Hello from NodeJS!`);
-  const denoProcess = spawn("deno", ["run", "deno_test/test.ts"]);
-
+  const denoProcess = spawn("ls")//spawn("deno", ["run", "deno_test/test.ts"]);
 
   denoProcess.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
