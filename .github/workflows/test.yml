@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Jamalam360/test-action
+        uses: Jamalam360/test-action@v1
