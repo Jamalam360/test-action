@@ -10,4 +10,4 @@ jobs:
           deno-version: vx.x.x
       - name: Hello world action step
         id: hello
-        uses: Jamalam360/test-action@v2
+        uses: Jamalam360/test-action@v3
