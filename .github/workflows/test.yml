@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Test Job
     steps:
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: vx.x.x
       - name: Hello world action step
         id: hello
         uses: Jamalam360/test-action@v1
